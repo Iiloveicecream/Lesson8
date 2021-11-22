@@ -16,6 +16,6 @@ class MyDivisionByZero:
         except:
             print('Деление на ноль')
 
-
+ 
 division = MyDivisionByZero(1, 0)
 print(division.div())
